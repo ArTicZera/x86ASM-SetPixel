@@ -1,5 +1,5 @@
-[BITS  16]
-[ORG 100h]
+[BITS    16]
+[ORG 0x7C00]
 
 call setup
 call resetColor
