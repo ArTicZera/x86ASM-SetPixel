@@ -61,3 +61,6 @@ exit:
                 ;quit the program
                 mov ah, 0x4C
                 int 0x21
+
+times 510 - ($ - $$) b 0
+dw 0xAA55
